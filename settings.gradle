@@ -1,0 +1,1 @@
+include ':common', ':things-app', ':mobile-app'
