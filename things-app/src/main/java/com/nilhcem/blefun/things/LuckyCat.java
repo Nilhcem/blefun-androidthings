@@ -60,10 +60,14 @@ public class LuckyCat {
             if (mServo != null) {
                 mServo.close();
             }
+            if (mLedControl != null) {
+                mLedControl.close();
+            }
         } catch (IOException e) {
             Log.e(TAG, "Error closing lucky cat resources", e);
         } finally {
             mServo = null;
+            mLedControl = null;
         }
     }
 }
