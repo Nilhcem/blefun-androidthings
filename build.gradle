@@ -1,14 +1,16 @@
 buildscript {
     repositories {
+        google()
         jcenter()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:2.3.1'
+        classpath 'com.android.tools.build:gradle:3.0.1'
     }
 }
 
 allprojects {
     repositories {
+        google()
         jcenter()
     }
 }
@@ -18,6 +20,6 @@ task clean(type: Delete) {
 }
 
 ext {
-    sdkVersion = 25
-    buildToolsVersion = '25.0.2'
+    sdkVersion = 27
+    buildToolsVersion = '27.0.3'
 }

@@ -20,7 +20,7 @@ public class InteractActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.interact_activity);
-        mButton = (Button) findViewById(R.id.interact_button);
+        mButton = findViewById(R.id.interact_button);
         mButton.setEnabled(false);
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
