@@ -21,7 +21,7 @@ android {
 }
 
 dependencies {
-    compileOnly 'com.google.android.things:androidthings:0.7-devpreview'
+    compileOnly 'com.google.android.things:androidthings:1.0'
     implementation project(':common')
-    implementation 'com.google.android.things.contrib:driver-pwmservo:0.4'
+    implementation 'com.google.android.things.contrib:driver-pwmservo:1.0'
 }
